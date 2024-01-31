@@ -1,0 +1,448 @@
+/* Estilos generales */
+body {
+    background-image: url('https://wallpapers.com/images/hd/real-galaxy-pictures-wb6k1sddff2vy02o.jpg');
+    background-position: center top;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    zoom: 90%;
+    overflow: auto;  
+    min-height: 100vh; /* Establecer la altura mínima al 100% de la altura de la ventana gráfica */
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Agrega estilos específicos para pantallas pequeñas aquí */
+}
+
+/* Estilos para tabletas */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Agrega estilos específicos para tabletas aquí */
+}
+
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1025px) {
+    /* Agrega estilos específicos para pantallas grandes aquí */
+}
+
+/* Estilos para el header */
+header {
+    text-align: left;
+    padding: 20px;
+    font-family: "Roboto", "Arial", sans-serif;
+    background-position: center top;
+    color: #fff; /* Texto en color blanco */
+}
+
+.inicio h1 {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: xx-large;
+    border: 1px solid rgb(162, 106, 2);
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    margin: 0 auto; /* Centra la barra de navegación horizontalmente */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed; /* Cambiado a posición fija */
+    top: 0; /* Fijar en la parte superior */
+    width: 100%; /* Define el ancho deseado, como la mitad de la pantalla */
+    height: 50px; /* Define la mitad de la altura original */
+    z-index: 1000; /* Establecer un índice de apilamiento alto */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Ajuste para el contenido que sigue a la barra de navegación */
+.content {
+    margin-top: 60px; /* Ajustar según el alto de la barra de navegación */
+}
+
+/* Estilos para los títulos */
+h1, h2, h3 {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 1px 1px 2px #333;
+    margin-top: 50px; /* Dar espacio para la barra de navegación */
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 20px; 
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las secciones de contenido */
+.contenido-seccion {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para los contenedores de libros */
+.contenedor {
+    display: flex;
+}
+
+/* Estilos para las imágenes de libros */
+.hero, .hero1, .hero2, .hero3, .hero4, .hero5, .hero6, .hero7, .hero8, .hero9, .hero10 {
+    background-position: center top;
+    background-size: auto 100%;
+    padding: 80px 0px;
+    margin: 30px;
+    text-shadow: 0 1px #000000;
+    font-family: 'Trebuchet MS', 'Helvetica';
+    width: 150px;
+    height: 60px;
+}
+
+/* Imágenes de libros */
+.hero {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_687035-MLA42321941512_062020-O.webp');
+}
+
+.hero1 {
+    background-image: url('https://www.penguinlibros.com/uy/2523716/el-poder-del-ahora.jpg');
+}
+
+.hero2 {
+    background-image: url('https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/9/7/9788425432026.jpg');
+}
+
+.hero3 {
+    background-image: url('https://m.media-amazon.com/images/I/A1VSSe69MyL._AC_UF1000,1000_QL80_.jpg');
+}
+
+.hero4 {
+    background-image: url('https://www.libreriavila.com.uy/images/thumbs/0067216_las-48-leyes-del-poder-robert-greene_750.jpeg');
+}
+
+.hero5 {
+    background-image: url('https://contrapunto.cl/17027/rebelion-en-la-granja.jpg');
+}
+
+.hero6 {
+    background-image: url('https://f.fcdn.app/imgs/cb984e/grupolibros.com.uy/gli/fdd6/original/catalogo/978987566928497898756692841/1920-1200/1984-1984.jpg');
+}
+
+.hero7 {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630278330i/22827028.jpg');
+}
+
+.hero8 {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1625989854i/58531440.jpg');
+}
+
+.hero9 {
+    background-image: url('https://f.fcdn.app/imgs/85a165/grupolibros.com.uy/gli/33f1/original/catalogo/978847953096997884795309691/1920-1200/introduccion-a-la-pnl-introduccion-a-la-pnl.jpg');
+}
+
+.hero10 {
+    background-image: url('https://books.google.com.uy/books/content?id=ExwDS2ikAJ8C&pg=PA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1NQzuHLG6Ly-K_i4_vr5ETA6amog&w=1280');
+}
+
+/* Estilos para el contenido adicional de los libros */
+.textoAdicional {
+    display: flex; /* Establece el contenedor como flexbox */
+    flex-direction: column; /* Organiza los elementos en columnas */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Negro con 80% de transparencia */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 2%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid rgb(162, 106, 2);
+}
+
+.textoAdicional h1 {
+    margin-top: 0; /* Elimina el margen superior del título */
+}
+
+.textoAdicional p {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 1;
+    padding: 5px;
+    border: 1px solid rgb(162, 106, 2);
+    border-radius: 10px;
+}
+
+/* Estilos para los enlaces de libros */
+.hero a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    color: #f40707;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #212121;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-top: 50px; /* Dar espacio para la barra de navegación */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Animación para los botones */
+@keyframes scaleDownUp {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+}
+
+button.animated {
+    animation: scaleDownUp 0.5s ease-in-out infinite;
+}
+
+#comentarioInput {
+    width: 400px; /* Ajusta el ancho de la barra de texto según tus necesidades */
+}
+
+    /* Estilos para la sección de comentarios */
+#comentariosGenerales {
+    overflow-x: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); 
+    border: 3px solid rgb(162, 106, 2);
+    overflow-y: hidden; /* Agrega una barra de desplazamiento vertical si el contenido es demasiado largo */
+    border-left-width: 2px; /* Ancho del borde izquierdo para compensar */
+    margin: 20px; /* Ajusta el margen según sea necesario */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    min-height: 300px; /* Altura mínima inicial */ 
+}
+
+#comentariosGenerales h2 {
+    border: 1px solid rgb(162, 106, 2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Aplicar estilos para el texto dentro del área de comentario */
+.comentario p {
+    white-space: pre-wrap; /* Permite que el texto se ajuste automáticamente */
+    margin: 0; /* Elimina cualquier margen adicional */
+}
+
+/* Aplica la fuente 'Righteous' al h2 dentro de la sección comentarios */
+.comentarios h2 {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0); 
+
+}
+
+#formularioComentario {
+    width: 1000px; /* Ajusta el ancho del formulario según tus necesidades */
+    margin-left: 0%; /* Centra el formulario horizontalmente en la página */
+}
+
+/* Comentarios lista */
+.comentarios-lista {
+    max-height: 200px; /* Altura máxima de la lista de comentarios */
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical si el contenido es demasiado largo */
+    list-style-type: none;
+    padding: 0;
+    white-space: pre-wrap; /* Permite que el texto se ajuste automáticamente */
+    word-wrap: break-word; /* Divide las palabras largas para ajustarse al contenedor */
+}
+
+#formularioComentario button {
+
+    padding: 10px 20px;
+    background-color: orange; /* Cambia el color de fondo a naranja */
+    color: white; /* Cambia el color del texto a blanco */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formularioComentario button:hover {
+    background-color: darkorange; /* Cambia el color de fondo a naranja oscuro cuando se pasa el mouse */
+}
+
+
+
+/* Estilos para las etiquetas de nombre y comentario */
+#formularioComentario label {
+    color: white;
+    padding: 5px;
+    
+    margin-bottom: 10px;
+}
+
+/* Estilos para los campos de entrada de nombre y comentario */
+#formularioComentario input[type="text"],
+#formularioComentario textarea {
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+/* Sección de contacto personal */
+
+#contacto {
+    height: 100px; /* Nueva altura de la sección */
+    /* Otros estilos */
+}
+
+.contact-links {
+    text-align: center;
+    margin-bottom: -10px;
+
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.contact-links a:hover {
+    background-color: #555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#comentariosPublicados {
+    min-height: 300px; /* Altura mínima inicial */ 
+    border: 3px solid rgb(162, 106, 2);
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    overflow-y: auto; /* Permitir desplazamiento vertical */
+    width: calc(100% - 20px); /* Resta 20px para tener en cuenta el padding y el borde */
+    margin: 0; /* Asegúrate de que no haya margen */
+    word-wrap: break-word; /* Romper palabras largas */
+}
+
+.comentario {
+    font-size: 16;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border: 1px solid rgb(162, 106, 2);
+    border: 2px solid orange; /* Borde naranja */
+    margin-bottom: 10px; /* Margen inferior para separar los comentarios */
+    padding: 5px; /* Espaciado interno para que el texto no esté pegado al borde */
+}
+
+        /* Estilos para el nombre del comentario */
+        .nombreLabel {
+            border: 2px solid orange; /* Borde naranja */
+            padding: 3px; /* Espaciado interno */
+            border-radius: 4px; /* Bordes redondeados */
+        }
+
+        .comentarioTexto {
+            margin-top: 15px; /* Ajusta el margen superior según sea necesario */
+        }
+        
+
+/* Estilos para el contenedor del footer */
+#footer {
+    width: 200px; /* Ancho del footer */
+    height: 50px; /* Altura del footer */
+    background-color: #333; /* Color de fondo */
+    border: 2px solid black; /* Borde */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+/* Estilos para el nombre */
+#footer-name {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 16px;
+    color: black; /* Color del texto */
+    text-shadow: 0 0 10px white; /* Sombra blanca para crear un fondo más grande */
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo negro con transparencia */
+    margin-bottom: 10px;
+}
+
+/* Estilos para la aclaración */
+#footer-clarification {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 12px;
+    color: black; /* Color del texto */
+    text-shadow: 0 0 10px white; /* Sombra blanca para crear un fondo más grande */
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo negro con transparencia */
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones */
+#footer-buttons {
+    margin-top: 10px; /* Espacio entre la aclaración y los botones */
+}
+
+#footer-buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+#footer-buttons a:hover {
+    background-color: #555;
+}
