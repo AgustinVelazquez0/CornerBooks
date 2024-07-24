@@ -172,7 +172,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     width: 86%;
-    height: 200px;
+    min-height: 200px;
     margin-left: 20px;
     margin-top: 2%;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
