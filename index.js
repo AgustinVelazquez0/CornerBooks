@@ -1,8 +1,17 @@
-// Agrega un evento de clic al botón "Add comment"
-document.getElementById("agregarComentarioBtn").addEventListener("click", function() {
+// Agrega un evento de submit al formulario
+document.getElementById("formularioComentario").addEventListener("submit", function(event) {
+    // Previene el envío del formulario para manejarlo con JavaScript
+    event.preventDefault();
+
     // Obtiene el valor de nombre y comentario
     var nombre = document.getElementById("nombre").value;
     var comentario = document.getElementById("comentarioInput").value;
+
+    // Verifica que los campos no estén vacíos
+    if (nombre.trim() === "" || comentario.trim() === "") {
+        alert("Please fill out both the name and comment fields.");
+        return; // Detiene la ejecución si los campos están vacíos
+    }
 
     // Crea un nuevo elemento de comentario
     var nuevoComentario = document.createElement("div");
