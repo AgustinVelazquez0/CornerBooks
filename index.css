@@ -30,13 +30,11 @@ body {
 header {
     text-align: left;
     padding: 20px;
-    font-family: "Roboto", "Arial", sans-serif;
     background-position: center top;
     color: #fff; /* Texto en color blanco */
 }
 
 .inicio h1 {
-    font-family: "Roboto", "Arial", sans-serif;
     font-size: xx-large;
     border: 1px solid rgb(162, 106, 2);
 }
@@ -50,7 +48,7 @@ header {
     position: fixed; /* Cambiado a posición fija */
     top: 0; /* Fijar en la parte superior */
     width: 100%; /* Define el ancho deseado, como la mitad de la pantalla */
-    height: 50px; /* Define la mitad de la altura original */
+    min-height: 60px; /* Define la mitad de la altura original */
     z-index: 1000; /* Establecer un índice de apilamiento alto */
 }
 
@@ -71,7 +69,6 @@ header {
 
 /* Estilos para los títulos */
 h1, h2, h3 {
-    font-family: "Roboto", "Arial", sans-serif;
 }
 
 h1 {
@@ -112,7 +109,6 @@ h3 {
     padding: 80px 0px;
     margin: 30px;
     text-shadow: 0 1px #000000;
-    font-family: 'Trebuchet MS', 'Helvetica';
     width: 150px;
     height: 60px;
 }
@@ -272,7 +268,6 @@ button.animated {
 
 /* Aplica la fuente 'Righteous' al h2 dentro de la sección comentarios */
 .comentarios h2 {
-    font-family: "Roboto", "Arial", sans-serif;
     color: #ffffff;
     text-shadow: 1px 1px 1px rgb(0, 0, 0); 
 
@@ -418,7 +413,6 @@ html {
 
 /* Estilos para el nombre */
 #footer-name {
-    font-family: 'Brush Script MT', cursive;
     font-size: 16px;
     color: black; /* Color del texto */
     text-shadow: 0 0 10px white; /* Sombra blanca para crear un fondo más grande */
@@ -428,7 +422,6 @@ html {
 
 /* Estilos para la aclaración */
 #footer-clarification {
-    font-family: 'Brush Script MT', cursive;
     font-size: 12px;
     color: black; /* Color del texto */
     text-shadow: 0 0 10px white; /* Sombra blanca para crear un fondo más grande */
